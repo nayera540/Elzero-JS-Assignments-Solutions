@@ -1,0 +1,15 @@
+let myEle1 = document.querySelector("div");
+let myEle2 = document.querySelector('[name = "js"]');
+let myEle3 = document.querySelector(".element");
+let myEle4 = document.querySelector("#elzero");
+let myEle5 = document.querySelectorAll("div")[0];
+let myEle6 = document.querySelectorAll("#elzero")[0];
+let myEle7 = document.querySelectorAll(".element")[0];
+let myEle8 = document.querySelectorAll("[name = 'js']")[0];
+let myEle9 = document.getElementsByClassName("element")[0];
+let myEle10 = document.getElementById("elzero");
+let myEle11 = document.getElementsByTagName("div")[0];
+let myEle12 = document.getElementsByTagNameNS("*", "div")[0];
+let myEle13 = document.body.children[0];
+let myEle14 = document.body.firstElementChild;
+let myEle15 = document.body.childNodes[1];
